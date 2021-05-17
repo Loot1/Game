@@ -1,0 +1,96 @@
+@font-face {
+        font-family: "alagardmedium";
+        src: url("../font/alagard-webfont.woff2") format('woff2'),
+             url("../font/alagard-webfont.woff") format('woff');
+        font-weight: normal;
+        font-style: normal;  
+ }
+ /* Ecrans titre */
+.Title {
+    font-family: "alagardmedium";
+    font-size: 100px;
+}
+.TitleScreen {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.Text {
+    font-family: 'Press Start 2P', cursive;
+}
+
+
+/* Ecran jeu */
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.red {
+    background-color: #788823;
+    width: 2.3rem;
+    height: 2.3rem;
+}
+
+.green {
+    background-color: #a08266;
+    width: 2.3rem;
+    height: 2.3rem;
+}
+
+#row {
+    display: flex;
+    flex-direction: row;
+}
+
+.white {
+    background-color: white;
+}
+
+.monster {
+    width:2.3rem ;
+    height: 2.3rem;
+    border-radius: 50%;
+    background-color: aqua;
+}
+.topLeftTurret {
+    width: 2.3rem;
+    height: 2.3rem;
+    margin: 0;
+    background-image: url("assets/img/tower_1.png");
+    background-size: cover;
+}
+.topRightTurret {
+    width: 2.3rem;
+    height: 2.3rem;
+    margin: 0;
+    background-image: url("assets/img/tower_2.png");
+    background-size: cover;
+}
+.bottomRightTurret {
+    width: 2.3rem;
+    height: 2.3rem;
+    margin: 0;
+    background-image: url("assets/img/tower_3.png");
+    background-size: cover;
+}
+.BottomLeftTurret {
+    width: 2.3rem;
+    height: 2.3rem;
+    margin: 0;
+    background-image: url("assets/img/tower_4.png");
+    background-size: cover;
+}
+#map {
+    background-color: #788823;
+}
+.flowers {
+    width: 2.3rem;
+    height: 2.3rem;
+    margin: 0;
+    background-image: url("assets/img/smallFlowers.png");
+    background-size: cover;
+}
