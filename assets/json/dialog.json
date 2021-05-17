@@ -1,0 +1,59 @@
+{
+    "dialog": [
+        {
+            "text": "Vous faites intrusion sur les terres Manusiennes. Nous défendons un savoir secret, je vous ordonne de partir sur le champ ou vous aurez à faire face à mes vagues armées !",
+            "name": "Caroline",
+            "img": "assets/img/caroline.png"
+        },
+        {
+            "text": "C’est la cheffe de cette contrée, elle fait peur à beaucoup de monde mais nous devons rester pour trouver ce savoir interdit. Afin de nous mettre en déroute, les manusiens vont nous envoyer des monstres par vague pour tenter de détruire notre base.",
+            "name": "Canard Magique",
+            "img": "assets/img/canard.png"
+        },
+        {
+            "text": "Pour pouvoir résister, vous allez devoir disposer des tours le long du chemin pour qu’elles puissent tuer les monstres arrivants. Attention, les tours et les monstres ont tous des effets différents. Tentez d’apporter de la synergie de votre composition si vous voulez gagner !",
+            "name": "Canard Magique",
+            "img": "assets/img/canard.png"
+        },
+        {
+            "text": "Je n’apprécie pas les passages inopportuns dans ma salle de cours ! Montrez-moi votre Trello !",
+            "name": "Amadou",
+            "img": "assets/img/amadou.png"
+        },
+        {
+            "text": "Quand on l’ouvre, on la ferme !!!",
+            "name": "Thierry",
+            "img": "assets/img/thierry.png"
+        },
+        {
+            "text": "Pfffiou, j’ai enfin fini mon application, j’vais vous détruire le temps de fumer ma clope !",
+            "name": "Nicolas",
+            "img": "assets/img/nicolas.png"
+        },
+        {
+            "text": "Je n’apprécie guère tout ce passage, vous perturbez nos exposés, tout ça pour un peu de café ! Vous allez subir mon courroux !",
+            "name": "Amélie",
+            "img": "assets/img/amelie.png"
+        },
+        {
+            "text": "J’ai pas le temps pour vous, mon élèves en distanciels m’attendent...",
+            "name": "Thomas",
+            "img": "assets/img/thomas.png"
+        },
+        {
+            "text": "Achetez moi un sweat ou je vous finis !",
+            "name": "Justine",
+            "img": "assets/img/justine.png"
+        },
+        {
+            "text": "",
+            "name": "",
+            "img": ""
+        },
+        {
+            "text": "Vous m'avez battus, je vous donne votre diplôme directement, vous l'avez mérité !",
+            "name": "Caroline",
+            "img": "assets/img/caroline.png"
+        }
+    ]
+}

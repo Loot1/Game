@@ -1,0 +1,60 @@
+#scenario {
+    font-size: x-large;
+    font-family: 'Pangolin', cursive;
+    background-color: black;
+    opacity: 85%;
+    display: flex;
+    height: 91vh;
+    border-radius: 10em;
+}
+
+.flex {
+    display: flex;
+}
+
+#left,
+#right {
+    width: 50%;
+}
+
+#left {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#topright {
+    height: 60%;
+}
+
+#botright {
+    height: 40%;
+}
+
+#left img {
+    height: 50%;
+    width: 50%;
+}
+
+#left p {
+    color: white;
+    text-align: center;
+}
+
+#bulle {
+    background-color: white;
+    border: 2px Solid grey;
+    border-radius: 20em;
+    height: 100%;
+    align-items: center;
+    margin: 2em 1em 0 0;
+    padding: 0 5em;
+}
+
+#button {
+    justify-content:center;
+}
+
+#scenario.none {
+    display: none;
+}
