@@ -58,6 +58,59 @@ function parseMap() {
             }
         }
     }
+        $('.start').append('<div class="monster" id="monster"></div>')
 }
+
+
+function findNextSiblings() {
+    let monster = $('#monster')
+    if (monster.next('.green')) {
+        return true;
+    }
+    return false
+}
+
+function findPreviousSiblings() {
+    let monster = $('#monster')
+    if (monster.prev('.red')) {
+        return false;
+    }
+    return true
+}
+
+function findNextParent() {
+    let monster = $('#monster')
+    if (monster.parent().parent().children('.green')) {
+        return true
+    }
+    return false
+}
+
+function findPreviousParent() {
+    let monster = $('#monster')
+    if (monster.parent().parent().children('.red')) {
+        return false
+    }
+    return true
+}
+
+if ($(document).keydown(function (e) {
+        let monster = $('#monster').parent()
+        if (e.keyCode === 37 && findPreviousSiblings() === false) {
+            $('.monster').remove()
+            monster.prev().append('<div class="monster" id="monster"></div>')
+        } else if (e.keyCode === 39 && findNextSiblings() === true) {
+            $('.monster').remove()
+            monster.next().append('<div class="monster" id="monster"></div>')
+        } else if (e.keyCode === 40 && findNextParent() === true) {
+            $('.monster').remove()
+            monster.parent().next().children('.green').append('<div class="monster" id="monster"></div>')
+            console.log(monster.parent().next().children())
+        } else if (e.keyCode === 38 && findPreviousParent() === false) {
+            $('.monster').remove()
+            monster.parent().prev().children('.green').append('<div class="monster" id="monster"></div>')
+            console.log(monster.parent().next().children())
+        }
+    }))
 
 parseMap()
