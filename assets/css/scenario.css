@@ -6,6 +6,7 @@
     display: flex;
     height: 91vh;
     border-radius: 10em;
+    position: absolute;
 }
 
 .flex {
